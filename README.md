@@ -1,6 +1,5 @@
 # Secret Santa Application
-
-A robust Python application for automating Secret Santa assignments for your company or group.
+Python application for automating Secret Santa assignments for your company or group.
 
 ## Features
 
@@ -12,8 +11,6 @@ A robust Python application for automating Secret Santa assignments for your com
     -   Ensures input files are not empty.
     -   Requires more than 2 participants.
     -   Checks for duplicate email addresses to prevent logical errors.
--   **Robustness**: Uses a randomized retry mechanism (up to 100 attempts) to find a valid solution even in tight constraint scenarios.
-
 ## Setup
 
 1.  **Prerequisites**: Ensure you have Python 3.x installed.
@@ -79,4 +76,4 @@ The application generates a CSV file with the new assignments.
 
 -   The application will alert you if input files are missing or malformed.
 -   It will raise an error if duplicate emails are found in the employee list.
--   If no valid assignment exists (e.g., small groups with too many constraints), it will inform you after multiple retry attempts.
+
